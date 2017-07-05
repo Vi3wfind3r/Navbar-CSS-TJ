@@ -42,6 +42,10 @@ body {
     border-bottom: 1px solid #eeeeef;
 }
 
+.content {
+  display: none;
+}
+
 .nav-flexbox-outer {
     margin-top: 0;
     padding: 0;
@@ -93,4 +97,38 @@ ul li a {
 
 img {
     display: none;
+}
+
+@media (min-width: 720px) {
+  .hide-when-large {
+    display: none;
+  }
+
+  .ultra-flex {
+    display: flex;
+  }
+
+  .nav-flexbox-outer {
+      margin-top: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .content {
+    display: flex;
+    width: 100%;
+  }
+
+  .content > nav {
+    width: 100%;
+  }
+
+  .img {
+    display: block;
+  }
+
+  .top-level-li:last-child {
+    margin-left: auto;
+  }
 }
