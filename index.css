@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .hamburger {
     width: 48px;
     height: 42px;
@@ -15,6 +16,8 @@ body {
     border-radius: 2px;
     box-shadow: 0 0 2px #eeeeef;
     padding: 10px 10px;
+    order: 2;
+    margin-bottom: 10px;
 }
 
 .hamburger-stripe {
@@ -23,5 +26,23 @@ body {
     margin-bottom: 5px;
 }
 
+.thinkful-logo {
+    margin-top: 7px;
+    margin-left: 4px;
+}
+
 /* Add your CSS here */
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-bottom: 1px solid #eeeeef;
+}
+
+.nav-flexbox {
+    display: flex;
+    flex-direction: column;
+}
