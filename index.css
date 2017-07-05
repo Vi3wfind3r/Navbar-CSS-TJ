@@ -45,11 +45,29 @@ body {
 .nav-flexbox {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
+    padding: 0;
+}
+
+.top-level-li {
+  border-bottom: 1px solid #eeeeef;
+  flex-basis: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-level-li > a {
+  color: #6799ff;
+  text-transform: uppercase;
+  padding-left: 10px;
 }
 
 ul {
-   list-style: none; 
-   text-decoration: none;
+   list-style: none;
+}
+ul li a {
+  text-decoration: none;
 }
 
 img {
