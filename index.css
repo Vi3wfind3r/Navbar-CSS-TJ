@@ -46,3 +46,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+ul {
+   list-style: none; 
+   text-decoration: none;
+}
+
+img {
+    display: none;
+}
